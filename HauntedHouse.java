@@ -14,17 +14,16 @@ public class HauntedHouse
         Scanner sc = new Scanner(System.in);
         System.out.println("The Haunted House");
         System.out.println("By: Hidden Genius");
-        System.out.println();
         System.out.println("You are standing in front of a spooky haunted house.");
         System.out.println("You hear what sounds like screaming coming from inside the house.");
         System.out.print("Will you enter the house? (yes or no): ");
         String enterHouse = sc.nextLine();
-        if(enterHouse == "y" || enterHouse == "yes") {
+        if(enterHouse.equals("y") || enterHouse.equals("yes")) {
             System.out.println("You nervously and very slowly approach the door...");
             System.out.println("You open the door and immediately see a ghost!");
             System.out.print("Will you punch the ghost? (yes or no): ");
             String punchGhost = sc.nextLine();
-            if(punchGhost == "y" || punchGhost == "yes") {
+            if(punchGhost.equals("y") || punchGhost.equals("yes")) {
                 // your code here
 
             } else {
@@ -37,7 +36,7 @@ public class HauntedHouse
             System.out.println("...you hear the door swing open behind you!");
             System.out.print("Will you run away? (yes or no): ");
             String run = sc.nextLine();
-            if(run == "y" || run == "yes") {
+            if(run.equals("y") || run.equals("yes")) {
                 // your code here
 
             } else {
